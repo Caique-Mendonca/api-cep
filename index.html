@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consuta de CEP</title>
+    <style>
+        span{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <label for="cep-input">Digite o CEP:</label>
+    <input type="number" name="" id="cep-input" placeholder="ex: 01001000">
+
+    <button class="btn-consultar">Consultar</button>
+    
+    <ul>
+        <li>CEP: <span class="cep"></span></li>
+        <li>Logradouro: <span class="logradouro"></span></li>
+        <li>Complemento: <span class="complemento"></span> </li>
+        <li>Bairro: <span class="bairro"></span></li>
+        <li>Localidade: <span class="localidade"></span></li>
+        <li>UF: <span class="uf"></span></li>
+        <li>DDD: <span class="ddd"></span></li>
+    </ul>
+</body>
+<script src="index.js" defer></script>
+</html>
